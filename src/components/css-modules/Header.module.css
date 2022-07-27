@@ -1,0 +1,14 @@
+.header {
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+.header img {
+    width: 60px;
+}
+
+.header .logo>a {
+    height: 60px;
+    display: flex;
+    margin-left: 40px;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import classes from './css-modules/Header.module.css';
 
 function Header() {
     return (
-        <header className='header'>
-            <div className='logo'>
+        <header className={classes.header}>
+            <div className={classes.logo}>
                 <a href='/'>
                     <img src="https://cdn.worldvectorlogo.com/logos/correc-1.svg" alt="logo" />
                 </a>

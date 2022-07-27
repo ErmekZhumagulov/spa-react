@@ -1,0 +1,20 @@
+.nav {
+    grid-area: nav;
+    background-color: darksalmon;
+}
+
+.nav>ul>li {
+    list-style: none;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+}
+
+.item a {
+    color: white;
+}
+
+.item.active a {
+    color: blue;
+}

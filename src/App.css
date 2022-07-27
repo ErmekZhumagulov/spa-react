@@ -11,39 +11,3 @@
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
 }
-
-.header {
-    grid-area: header;
-    background-color: aquamarine;
-}
-.header img {
-    width: 60px;
-}
-.header .logo > a {
-    height: 60px;
-    display: flex;
-    margin-left: 40px;
-}
-
-.nav {
-    grid-area: nav;
-    background-color: darksalmon;
-}
-.nav > ul > li {
-    list-style: none;
-}
-.nav > ul > li > a {
-    color: black;
-    text-decoration: none;
-}
-
-.content {
-    grid-area: content;
-    background-color: greenyellow;
-}
-.content > div > div > img {
-    width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-    height: 500px;
-}
