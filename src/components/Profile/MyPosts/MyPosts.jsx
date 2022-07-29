@@ -13,8 +13,8 @@ function MyPosts() {
                 </div>
             </div>
             <div className={classes.posts}>
-                <Post massage='Hi! How are you?' />
-                <Post massage="It's my first post" />
+                <Post massage='Hi! How are you?' like='14' />
+                <Post massage="It's my first post" like='23' />
             </div>
         </div>
     );
