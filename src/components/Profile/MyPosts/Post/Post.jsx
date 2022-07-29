@@ -1,11 +1,11 @@
 import React from 'react';
 import classes from './Post.module.css';
 
-function Post() {
+function Post(props) {
     return (
         <div className={classes.item}>
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBxpj2OOGlOnaXrRmZQ0-s3nOhCBwJEFfwZQ&usqp=CAU' />
-            post 1
+            {props.massage}
             <div>
                 <span>Like</span>
             </div>

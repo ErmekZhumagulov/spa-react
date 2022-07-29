@@ -13,8 +13,8 @@ function MyPosts() {
                 </div>
             </div>
             <div className={classes.posts}>
-                <Post />
-                <Post />
+                <Post massage='Hi! How are you?' />
+                <Post massage="It's my first post" />
             </div>
         </div>
     );
