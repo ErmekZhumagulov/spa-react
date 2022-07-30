@@ -11,7 +11,7 @@
 
 }
 
-.dialogsItems .dialog.active {
+.dialogsItems .dialog .active {
     color:blue;
 }
 

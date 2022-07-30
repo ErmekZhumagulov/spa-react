@@ -9,7 +9,7 @@ function Navbar() {
                 <li className={classes.item}>
                     <NavLink to='/profile' className={navData => navData.isActive ? classes.active : classes.item}>Profile</NavLink>
                 </li>
-                <li className={`${classes.item} ${classes.active}`}>
+                <li className={classes.item}>
                     <NavLink to='/dialogs' className={navData => navData.isActive ? classes.active : classes.item}>Messages</NavLink>
                 </li>
                 <li className={classes.item}>
