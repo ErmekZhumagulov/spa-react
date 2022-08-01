@@ -32,17 +32,17 @@ function Dialogs() {
         { id: 3, message: 'What are you doing?' }
     ]
 
+    let dialogsElements = dialogsData.map(dialog => <DialogItem id={dialog.id} name={dialog.name} />);
+
+    let messagesElements = messagesData.map(message => <Message message={message.message} />);
+
     return (
         <div className={classes.dialogs}>
             <div className={classes.dialogsItems}>
-                <DialogItem id={dialogsData[0].id} name={dialogsData[0].name} />
-                <DialogItem id={dialogsData[1].id} name={dialogsData[1].name} />
-                <DialogItem id={dialogsData[2].id} name={dialogsData[2].name} />
+                {dialogsElements}
             </div>
             <div className={classes.messages}>
-                <Message message={messagesData[0].message} />
-                <Message message={messagesData[1].message} />
-                <Message message={messagesData[2].message} />
+                {messagesElements}
             </div>
         </div>
     );

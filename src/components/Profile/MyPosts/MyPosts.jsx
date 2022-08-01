@@ -9,6 +9,8 @@ function MyPosts() {
         { id: 2, message: 'It\'s my first post', like: 23 }
     ]
 
+    let postsElements = postsData.map(post => <Post message={post.message} like={post.like} />);
+
     return (
         <div className={classes.postsBlock}>
             <div>
@@ -23,8 +25,7 @@ function MyPosts() {
                 </div>
             </div>
             <div className={classes.posts}>
-                <Post message={postsData[0].message} like={postsData[0].like} />
-                <Post message={postsData[1].message} like={postsData[1].like} />
+                {postsElements}
             </div>
         </div>
     );
